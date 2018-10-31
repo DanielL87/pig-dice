@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pig Dice Game</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pig Dice Game</h1><br>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="new-game">
+            <p>Player1</p>
+            <p id = "score1"></p>
+          </div><br><br>
+            <div class="col-md-6">
+              <p>Player2</p>
+              <p id = "score2"></p>
+              <br><br>
+              <div id= "button">
+                <p>Roll Number:</p>
+                <p id="rollnumber"></p>
+                <br><br>
+                <button type="submit" class="btn btn-success" id ="pass">Pass Turn</button>
+                <button type="submit" class="btn btn-success" id="roll">Roll Dice</button>
+              </div>
+            </div><br><br>
+          </form>
+        <div class="col-md-12">
+          <div id="show-balance">
+            <h5>Hi <span id = "name"></span>, </h5>
+              <h5 id="congratulations">Congratulations on opening a new account!</h5>
+            <p>Here is your Account Number: <span class="account-number"></span></p>
+            <p>Current Balance: $<span class="current-balance"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
